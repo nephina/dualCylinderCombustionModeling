@@ -1,0 +1,9 @@
+mkdir 0/
+cp save/0.orig/* 0/
+cd constant/polyMesh/;
+python CylinderModelblockMeshDictGenerator.py;
+cp blockMeshDictTest blockMeshDict;
+cd ../..;
+blockMesh;
+simpleFoam;
+paraFoam
