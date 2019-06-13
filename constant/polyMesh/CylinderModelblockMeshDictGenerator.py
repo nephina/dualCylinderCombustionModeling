@@ -9,12 +9,12 @@ tube_len = 0.5*cyl1_dia
 
 # Mesh definitions
 angular_resolution = 1 #degrees
-cylinder1_axial_resolution = 200 #cells
-cylinder1_radial_resolution = 1000 #cells
-cylinder2_axial_resolution = 200 #cells
-cylinder2_radial_resolution = 1000 #cells
-tube_axial_resolution = 1000 #cells
-tube_radial_resolution = 100 #cells
+cylinder1_axial_resolution = 40 #cells
+cylinder1_radial_resolution = 200 #cells
+cylinder2_axial_resolution = 40 #cells
+cylinder2_radial_resolution = 200 #cells
+tube_axial_resolution = 200 #cells
+tube_radial_resolution = 20 #cells
 
 '''
             Back View                   Side View                 Front View
