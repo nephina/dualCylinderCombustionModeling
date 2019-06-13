@@ -55,10 +55,10 @@ from math import *
 # Find vertices
 angle = radians(angular_resolution)
 Vertices = [
-			[              0,                            0,                             0         ],
-			[         cyl1_height,                       0,                             0         ], 
-			[     cyl1_height+tube_len,                  0,                             0         ],
-			[cyl1_height+tube_len+cyl2_height,           0,                             0         ],
+			[              0,                            0,                                0          ],
+			[         cyl1_height,                       0,                                0          ], 
+			[     cyl1_height+tube_len,                  0,                                0          ],
+			[cyl1_height+tube_len+cyl2_height,           0,                                0          ],
 			[              0,                  cyl1_dia*cos(angle/2)/2,        cyl1_dia*sin(angle/2)/2],
 			[         cyl1_height,             cyl1_dia*cos(angle/2)/2,        cyl1_dia*sin(angle/2)/2],
 			[         cyl1_height,             tube_dia*cos(angle/2)/2,        tube_dia*sin(angle/2)/2],
