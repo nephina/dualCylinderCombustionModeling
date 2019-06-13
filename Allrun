@@ -1,8 +1,8 @@
 mkdir 0/
 cp save/0.orig/* 0/
 cd constant/polyMesh/;
+touch blockMeshDict;
 python CylinderModelblockMeshDictGenerator.py;
-cp blockMeshDictTest blockMeshDict;
 cd ../..;
 blockMesh;
 simpleFoam;
