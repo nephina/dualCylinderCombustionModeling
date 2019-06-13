@@ -73,19 +73,6 @@ Vertices = [
 			[cyl1_height+tube_len+cyl2_height, cyl1_dia*cos(angle/2)/2,       -cyl1_dia*sin(angle/2)/2]
 		   ]
 
-# Set up faces
-front = [[0,1,5,4],[1,2,7,6],[2,3,9,8]]
-back = [[4,3,14,15],[3,2,12,13],[2,1,10,11]]
-cyl1_piston = [0,4,10,0]
-cyl1_wall = [4,5,11,10]
-cyl1_head = [6,12,11,5]
-tube_wall = [6,7,13,12]
-cyl2_head = [14,13,7,8]
-cyl2_wall = [8,9,15,14]
-cyl2_piston = [3,15,9,3]
-
-#Set up axis
-axis = [0,3,3,0]
 
 with open('blockMeshDict', 'w') as blockMeshDict:
 
